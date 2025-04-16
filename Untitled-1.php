@@ -1,3 +1,4 @@
+# hej
 <?php
 function fetchSCBData() {
     $url = "https://api.scb.se/OV0104/v1/doris/sv/ssd/START/PR/PR0101/PR0101A/KPI";
