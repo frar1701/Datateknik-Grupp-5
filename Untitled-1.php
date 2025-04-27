@@ -7,7 +7,7 @@ function fetchSCBData() {
                 "code" => "Varugrupp",
                 "selection" => [
                     "filter" => "item",
-                    "values" => ["Mjölk", "Kött", "Bröd"] // Replace with actual Varugrupp codes
+                    "values" => ["Mjölk", "Kött", "Bröd"]
                 ]
             ],
             [
@@ -57,10 +57,10 @@ function fetchSCBData() {
         ]
     ];
 
-    return $mockData; // Replace with: return json_decode($response, true);
+    return $mockData;
 }
 
-// Optional: Function to save data to MySQL (uncomment to use)
+// Function to save data to MySQL (uncomment to use)
 /*
 function saveToDatabase($data) {
     $conn = new mysqli("localhost", "username", "password", "food_prices");
